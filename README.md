@@ -53,6 +53,8 @@ Functions
   * SetPlayerRaceCheckpointEx(playerid, type, Float:x, Float:y, Float:z, Float:point_x, Float:point_y, Float:point_z, Float:size, colour = 0xFF000020, period = 1024, Float:pulse = 0.1, rotation_rate = 0);
   * SetPlayerCheckpointColour(playerid, colour)
   * SetPlayerRaceCheckpointColour(playerid, colour)
+  * GetPlayerVirtualKeyState(playerid, vkey) // Key definitions in the .inc file (the same as in the Windows API)
+  * GetPlayerMousePos(playerid, &x, &y)
 
 ####Callbacks:
   * OnPlayerOpenPauseMenu(playerid)
@@ -61,6 +63,8 @@ Functions
   * OnDriverDriveByShot(playerid)
   * OnPlayerStunt(playerid, stuntid, money, details[])
   * OnPlayerResolutionChange(playerid, X, Y)
+  * OnVirtualKeyStateChange(playerid, newkeys, oldkeys)
+  * OnMousePosChange(playerid, newx, newy, oldx, oldy)
 
 ####Experimental/Unstable:
   * SetPlayerCheckpointEx(playerid, Float:x, Float:y, Float:z, Float:size, colour = 0xFF000020, period = 1024, Float:pulse = 0.1, rotation_rate = 0, bool:check_z = true);
