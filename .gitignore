@@ -1,0 +1,31 @@
+# Directories
+Build/Temp/*
+Browser/obj
+Browser/Library/MetroFramework/obj
+Browser/Library/MetroFramework.Design/obj
+Browser/Library/MetroFramework.Fonts/obj
+
+# Files
+.directory
+*.slo
+*.lo
+*.o
+*.obj
+*.dylib
+*.lai
+*.out
+*.app
+*.log
+*.tlog
+*.pdb
+*.exp
+*.vshost.*
+*.exe.config
+*TemporaryGeneratedFile*
+*.cache
+*.FileListAbsolute.txt
+*.opensdf
+*.sdf
+*.suo
+Build/Debug/*
+Build/Release/sampp_server.lib
